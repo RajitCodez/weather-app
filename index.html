@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="" type="video/mp4">
+    </video>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png" alt="search" style="width: 20px;"></button>
+        </div>
+        
+        <div class="error">
+            <p></p>
+        </div>
+
+        <div class="weather">
+            <img src="" class="weather-icon">
+            <p class="weather-desc"></p>
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5664/5664979.png" class="col-icon">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/512/172/172922.png" class="col-icon">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
